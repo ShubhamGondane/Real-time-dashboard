@@ -11,7 +11,7 @@
 `kubectl logs <crawler-pod-name>`
 
 ### To scale up
-kubectl scale deployment selenium-node-firefox --replicas=10
+`kubectl scale deployment selenium-node-firefox --replicas=10`
 
 ### Run the following script files in order
 1. create_crawler.sh
